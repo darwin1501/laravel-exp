@@ -1,0 +1,138 @@
+
+
+/* global */
+a{
+  text-decoration: none;
+  color: black;
+}
+body{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn{
+  border-radius: 5px;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+  padding: 10px 20px 10px 20px;
+}
+.btn-back{
+  background-color:dodgerblue;
+  color: white;
+
+}
+.btn-delete{
+  color: white;
+  background-color:crimson;
+}
+.btn-login{
+  background-color: lightseagreen;
+}
+.btn-grp{
+  display: flex;
+  flex: space-evenly;
+  margin: auto;
+}
+.btn-grp-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-register{
+  background-color: seagreen;
+}
+.btn-submit, .btn-edit{
+  background-color:limegreen;
+  color: white;
+}
+.btn-txt{
+  color: white !important;
+  margin: 0;
+  padding: 0;
+}
+.card{
+  border-radius: 5px;
+  border: solid rgb(218, 216, 216) 1px;
+  background-color: whitesmoke;
+}
+.card-content{
+  display: flex;
+}
+.card-img{
+  object-fit: cover;
+  height: auto;
+}
+.card-txt-container{
+  margin-left: 5%;
+}
+.error{
+  color: red;
+}
+.login-container{
+  width: 400px;
+  margin: auto;
+  padding: 100px;
+}
+.card-title{
+  text-align: center;
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+}
+main{
+    margin-top:5%;
+}
+p{
+    text-align: center;
+}
+.project-container{
+  width: 600px;
+  margin: auto;
+  padding: 50px;
+}
+.project-date{
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+.project-title{
+  text-align: center;
+}
+.project-thumbnail{
+  width: 400px;
+}
+.right{
+  float: right !important;
+}
+.success{
+  color:limegreen;
+}
+
+/* navigation style */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  .active {
+    background-color: #4CAF50;
+  }
